@@ -1,0 +1,502 @@
+# Page snapshot
+
+```yaml
+- region "Skip to main content":
+  - link "Skip to main content":
+    - /url: "#__docusaurus_skipToContent_fallback"
+- navigation "Main":
+  - link "Playwright logo Playwright":
+    - /url: /
+    - img "Playwright logo"
+    - text: Playwright
+  - link "Docs":
+    - /url: /docs/intro
+  - link "API":
+    - /url: /docs/api/class-playwright
+  - button "Node.js"
+  - link "Community":
+    - /url: /community/welcome
+  - link "GitHub repository":
+    - /url: https://github.com/microsoft/playwright
+  - link "Discord server":
+    - /url: https://aka.ms/playwright/discord
+  - button "Switch between dark and light mode (currently system mode)"
+  - button "Search (Ctrl+K)":
+    - text: Search
+    - img
+    - text: K
+- complementary:
+  - navigation "Docs sidebar":
+    - list:
+      - listitem:
+        - button "Getting Started" [expanded]
+        - list:
+          - listitem:
+            - link "Installation":
+              - /url: /docs/intro
+          - listitem:
+            - link "Writing tests":
+              - /url: /docs/writing-tests
+          - listitem:
+            - link "Generating tests":
+              - /url: /docs/codegen-intro
+          - listitem:
+            - link "Running and debugging tests":
+              - /url: /docs/running-tests
+          - listitem:
+            - link "Trace viewer":
+              - /url: /docs/trace-viewer-intro
+          - listitem:
+            - link "Setting up CI":
+              - /url: /docs/ci-intro
+      - listitem:
+        - link "Getting started - VS Code":
+          - /url: /docs/getting-started-vscode
+      - listitem:
+        - link "Release notes":
+          - /url: /docs/release-notes
+      - listitem:
+        - link "Canary releases":
+          - /url: /docs/canary-releases
+      - listitem:
+        - button "Playwright Test" [expanded]
+        - list:
+          - listitem:
+            - link "Test configuration":
+              - /url: /docs/test-configuration
+          - listitem:
+            - link "Test use options":
+              - /url: /docs/test-use-options
+          - listitem:
+            - link "Annotations":
+              - /url: /docs/test-annotations
+          - listitem:
+            - link "Command line":
+              - /url: /docs/test-cli
+          - listitem:
+            - link "Emulation":
+              - /url: /docs/emulation
+          - listitem:
+            - link "Fixtures":
+              - /url: /docs/test-fixtures
+          - listitem:
+            - link "Global setup and teardown":
+              - /url: /docs/test-global-setup-teardown
+          - listitem:
+            - link "Parallelism":
+              - /url: /docs/test-parallel
+          - listitem:
+            - link "Parameterize tests":
+              - /url: /docs/test-parameterize
+          - listitem:
+            - link "Projects":
+              - /url: /docs/test-projects
+          - listitem:
+            - link "Reporters":
+              - /url: /docs/test-reporters
+          - listitem:
+            - link "Retries":
+              - /url: /docs/test-retries
+          - listitem:
+            - link "Sharding":
+              - /url: /docs/test-sharding
+          - listitem:
+            - link "Timeouts":
+              - /url: /docs/test-timeouts
+          - listitem:
+            - link "TypeScript":
+              - /url: /docs/test-typescript
+          - listitem:
+            - link "UI Mode":
+              - /url: /docs/test-ui-mode
+          - listitem:
+            - link "Web server":
+              - /url: /docs/test-webserver
+      - listitem:
+        - button "Guides" [expanded]
+        - list:
+          - listitem:
+            - link "Library":
+              - /url: /docs/library
+          - listitem:
+            - link "Accessibility testing":
+              - /url: /docs/accessibility-testing
+          - listitem:
+            - link "Actions":
+              - /url: /docs/input
+          - listitem:
+            - link "Assertions":
+              - /url: /docs/test-assertions
+          - listitem:
+            - link "API testing":
+              - /url: /docs/api-testing
+          - listitem:
+            - link "Authentication":
+              - /url: /docs/auth
+          - listitem:
+            - link "Auto-waiting":
+              - /url: /docs/actionability
+          - listitem:
+            - link "Best Practices":
+              - /url: /docs/best-practices
+          - listitem:
+            - link "Browsers":
+              - /url: /docs/browsers
+          - listitem:
+            - link "Chrome extensions":
+              - /url: /docs/chrome-extensions
+          - listitem:
+            - link "Clock":
+              - /url: /docs/clock
+          - listitem:
+            - link "Components (experimental)":
+              - /url: /docs/test-components
+          - listitem:
+            - link "Debugging Tests":
+              - /url: /docs/debug
+          - listitem:
+            - link "Dialogs":
+              - /url: /docs/dialogs
+          - listitem:
+            - link "Downloads":
+              - /url: /docs/downloads
+          - listitem:
+            - link "Evaluating JavaScript":
+              - /url: /docs/evaluating
+          - listitem:
+            - link "Events":
+              - /url: /docs/events
+          - listitem:
+            - link "Extensibility":
+              - /url: /docs/extensibility
+          - listitem:
+            - link "Frames":
+              - /url: /docs/frames
+          - listitem:
+            - link "Handles":
+              - /url: /docs/handles
+          - listitem:
+            - link "Isolation":
+              - /url: /docs/browser-contexts
+          - listitem:
+            - link "Locators":
+              - /url: /docs/locators
+          - listitem:
+            - link "Mock APIs":
+              - /url: /docs/mock
+          - listitem:
+            - link "Mock browser APIs":
+              - /url: /docs/mock-browser-apis
+          - listitem:
+            - link "Navigations":
+              - /url: /docs/navigations
+          - listitem:
+            - link "Network":
+              - /url: /docs/network
+          - listitem:
+            - link "Other locators":
+              - /url: /docs/other-locators
+          - listitem:
+            - link "Pages":
+              - /url: /docs/pages
+          - listitem:
+            - link "Page object models":
+              - /url: /docs/pom
+          - listitem:
+            - link "Screenshots":
+              - /url: /docs/screenshots
+          - listitem:
+            - link "Snapshot testing":
+              - /url: /docs/aria-snapshots
+          - listitem:
+            - link "Test generator":
+              - /url: /docs/codegen
+          - listitem:
+            - link "Touch events (legacy)":
+              - /url: /docs/touch-events
+          - listitem:
+            - link "Trace viewer":
+              - /url: /docs/trace-viewer
+          - listitem:
+            - link "Videos":
+              - /url: /docs/videos
+          - listitem:
+            - link "Visual comparisons":
+              - /url: /docs/test-snapshots
+          - listitem:
+            - link "WebView2":
+              - /url: /docs/webview2
+      - listitem:
+        - button "Migration"
+      - listitem:
+        - button "Integrations"
+      - listitem:
+        - link "Supported languages":
+          - /url: /docs/languages
+- main:
+  - article:
+    - navigation "Breadcrumbs":
+      - list:
+        - listitem:
+          - link "Home page":
+            - /url: /
+            - img
+        - listitem: Getting Started
+        - listitem: Installation
+    - heading "Installation" [level=1]
+    - heading "IntroductionDirect link to Introduction" [level=2]:
+      - text: Introduction
+      - link "Direct link to Introduction":
+        - /url: "#introduction"
+        - text: "#"
+    - paragraph: Playwright Test was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation of Google Chrome for Android and Mobile Safari.
+    - paragraph:
+      - strong: You will learn
+    - list:
+      - listitem:
+        - link "How to install Playwright":
+          - /url: /docs/intro#installing-playwright
+      - listitem:
+        - link "What's Installed":
+          - /url: /docs/intro#whats-installed
+      - listitem:
+        - link "How to run the example test":
+          - /url: /docs/intro#running-the-example-test
+      - listitem:
+        - link "How to open the HTML test report":
+          - /url: /docs/intro#html-test-reports
+    - heading "Installing PlaywrightDirect link to Installing Playwright" [level=2]:
+      - text: Installing Playwright
+      - link "Direct link to Installing Playwright":
+        - /url: "#installing-playwright"
+        - text: "#"
+    - paragraph:
+      - text: Get started by installing Playwright using npm, yarn or pnpm. Alternatively you can also get started and run your tests using the
+      - link "VS Code Extension":
+        - /url: /docs/getting-started-vscode
+      - text: .
+    - tablist:
+      - tab "npm" [selected]
+      - tab "yarn"
+      - tab "pnpm"
+    - tabpanel:
+      - code: npm init playwright@latest
+      - button "Copy code to clipboard"
+    - paragraph: "Run the install command and select the following to get started:"
+    - list:
+      - listitem: Choose between TypeScript or JavaScript (default is TypeScript)
+      - listitem: Name of your Tests folder (default is tests or e2e if you already have a tests folder in your project)
+      - listitem: Add a GitHub Actions workflow to easily run tests on CI
+      - listitem: Install Playwright browsers (default is true)
+    - heading "What's InstalledDirect link to What's Installed" [level=2]:
+      - text: What's Installed
+      - link "Direct link to What's Installed":
+        - /url: "#whats-installed"
+        - text: "#"
+    - paragraph: Playwright will download the browsers needed as well as create the following files.
+    - code: playwright.config.ts package.json package-lock.json tests/ example.spec.ts tests-examples/ demo-todo-app.spec.ts
+    - button "Copy code to clipboard"
+    - paragraph:
+      - text: The
+      - link "playwright.config":
+        - /url: /docs/test-configuration
+      - text: is where you can add configuration for Playwright including modifying which browsers you would like to run Playwright on. If you are running tests inside an already existing project then dependencies will be added directly to your
+      - code: package.json
+      - text: .
+    - paragraph:
+      - text: The
+      - code: tests
+      - text: folder contains a basic example test to help you get started with testing. For a more detailed example check out the
+      - code: tests-examples
+      - text: folder which contains tests written to test a todo app.
+    - heading "Running the Example TestDirect link to Running the Example Test" [level=2]:
+      - text: Running the Example Test
+      - link "Direct link to Running the Example Test":
+        - /url: "#running-the-example-test"
+        - text: "#"
+    - paragraph:
+      - text: By default tests will be run on all 3 browsers, Chromium, Firefox and WebKit using several workers. This can be configured in the
+      - link "playwright.config file":
+        - /url: /docs/test-configuration
+      - text: . Tests are run in headless mode meaning no browser will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+    - tablist:
+      - tab "npm" [selected]
+      - tab "yarn"
+      - tab "pnpm"
+    - tabpanel:
+      - code: npx playwright test
+      - button "Copy code to clipboard"
+    - paragraph:
+      - img "tests running in command line"
+      - text: See our doc on
+      - link "Running Tests":
+        - /url: /docs/running-tests
+      - text: to learn more about running tests in headed mode, running multiple tests, running specific tests etc.
+    - heading "HTML Test ReportsDirect link to HTML Test Reports" [level=2]:
+      - text: HTML Test Reports
+      - link "Direct link to HTML Test Reports":
+        - /url: "#html-test-reports"
+        - text: "#"
+    - paragraph:
+      - text: After your test completes, an
+      - link "HTML Reporter":
+        - /url: /docs/test-reporters#html-reporter
+      - text: will be generated, which shows you a full report of your tests allowing you to filter the report by browsers, passed tests, failed tests, skipped tests and flaky tests. You can click on each test and explore the test's errors as well as each step of the test. By default, the HTML report is opened automatically if some of the tests failed.
+    - tablist:
+      - tab "npm" [selected]
+      - tab "yarn"
+      - tab "pnpm"
+    - tabpanel:
+      - code: npx playwright show-report
+      - button "Copy code to clipboard"
+    - paragraph:
+      - img "HTML Report"
+    - heading "Running the Example Test in UI ModeDirect link to Running the Example Test in UI Mode" [level=2]:
+      - text: Running the Example Test in UI Mode
+      - link "Direct link to Running the Example Test in UI Mode":
+        - /url: "#running-the-example-test-in-ui-mode"
+        - text: "#"
+    - paragraph:
+      - text: Run your tests with
+      - link "UI Mode":
+        - /url: /docs/test-ui-mode
+      - text: for a better developer experience with time travel debugging, watch mode and more.
+    - tablist:
+      - tab "npm" [selected]
+      - tab "yarn"
+      - tab "pnpm"
+    - tabpanel:
+      - code: npx playwright test --ui
+      - button "Copy code to clipboard"
+    - paragraph:
+      - img "UI Mode"
+    - paragraph:
+      - text: Check out or
+      - link "detailed guide on UI Mode":
+        - /url: /docs/test-ui-mode
+      - text: to learn more about its features.
+    - heading "Updating PlaywrightDirect link to Updating Playwright" [level=2]:
+      - text: Updating Playwright
+      - link "Direct link to Updating Playwright":
+        - /url: "#updating-playwright"
+        - text: "#"
+    - paragraph: "To update Playwright to the latest version run the following command:"
+    - tablist:
+      - tab "npm" [selected]
+      - tab "yarn"
+      - tab "pnpm"
+    - tabpanel:
+      - code: "npm install -D @playwright/test@latest # Also download new browser binaries and their dependencies: npx playwright install --with-deps"
+      - button "Copy code to clipboard"
+    - paragraph: "You can always check which version of Playwright you have by running the following command:"
+    - tablist:
+      - tab "npm" [selected]
+      - tab "yarn"
+      - tab "pnpm"
+    - tabpanel:
+      - code: npx playwright --version
+      - button "Copy code to clipboard"
+    - heading "System requirementsDirect link to System requirements" [level=2]:
+      - text: System requirements
+      - link "Direct link to System requirements":
+        - /url: "#system-requirements"
+        - text: "#"
+    - list:
+      - listitem: Latest version of Node.js 18, 20 or 22.
+      - listitem: Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+      - listitem: macOS 14 Ventura, or later.
+      - listitem: Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+    - heading "What's nextDirect link to What's next" [level=2]:
+      - text: What's next
+      - link "Direct link to What's next":
+        - /url: "#whats-next"
+        - text: "#"
+    - list:
+      - listitem:
+        - link "Write tests using web first assertions, page fixtures and locators":
+          - /url: /docs/writing-tests
+      - listitem:
+        - link "Run single test, multiple tests, headed mode":
+          - /url: /docs/running-tests
+      - listitem:
+        - link "Generate tests with Codegen":
+          - /url: /docs/codegen-intro
+      - listitem:
+        - link "See a trace of your tests":
+          - /url: /docs/trace-viewer-intro
+  - navigation "Docs pages":
+    - link "Next Writing tests »":
+      - /url: /docs/writing-tests
+  - list:
+    - listitem:
+      - link "Introduction":
+        - /url: "#introduction"
+    - listitem:
+      - link "Installing Playwright":
+        - /url: "#installing-playwright"
+    - listitem:
+      - link "What's Installed":
+        - /url: "#whats-installed"
+    - listitem:
+      - link "Running the Example Test":
+        - /url: "#running-the-example-test"
+    - listitem:
+      - link "HTML Test Reports":
+        - /url: "#html-test-reports"
+    - listitem:
+      - link "Running the Example Test in UI Mode":
+        - /url: "#running-the-example-test-in-ui-mode"
+    - listitem:
+      - link "Updating Playwright":
+        - /url: "#updating-playwright"
+    - listitem:
+      - link "System requirements":
+        - /url: "#system-requirements"
+    - listitem:
+      - link "What's next":
+        - /url: "#whats-next"
+- contentinfo:
+  - text: Learn
+  - list:
+    - listitem:
+      - link "Getting started":
+        - /url: /docs/intro
+    - listitem:
+      - link "Playwright Training":
+        - /url: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+    - listitem:
+      - link "Learn Videos":
+        - /url: /community/learn-videos
+    - listitem:
+      - link "Feature Videos":
+        - /url: /community/feature-videos
+  - text: Community
+  - list:
+    - listitem:
+      - link "Stack Overflow":
+        - /url: https://stackoverflow.com/questions/tagged/playwright
+    - listitem:
+      - link "Discord":
+        - /url: https://aka.ms/playwright/discord
+    - listitem:
+      - link "Twitter":
+        - /url: https://twitter.com/playwrightweb
+    - listitem:
+      - link "LinkedIn":
+        - /url: https://www.linkedin.com/company/playwrightweb
+  - text: More
+  - list:
+    - listitem:
+      - link "GitHub":
+        - /url: https://github.com/microsoft/playwright
+    - listitem:
+      - link "YouTube":
+        - /url: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+    - listitem:
+      - link "Blog":
+        - /url: https://dev.to/playwright
+    - listitem:
+      - link "Ambassadors":
+        - /url: /community/ambassadors
+  - text: Copyright © 2025 Microsoft
+```
